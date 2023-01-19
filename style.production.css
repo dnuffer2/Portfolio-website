@@ -1,0 +1,467 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 2 version
+*/
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 2 version
+*/
+
+/* Colors Used: 
+Text Color: #0A2647
+Primary Color: #4E6C50
+Secondary Color: lightgrey
+Terciary color: #FAECD6
+*/
+
+body {
+
+    font-family: 'Oswald',
+        sans-serif;
+    background-color: #4e6c50;
+    color: #0A2647;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+
+/*links and buttons*/
+
+a {
+    color: lightgrey;
+    text-decoration: none;
+
+}
+
+
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+button {
+    background-color: #0A2647;
+    font-size: 16px;
+    color: white;
+    padding: 3px;
+    border-radius: 3px;
+    border: none;
+    font-family: inherit;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 2px solid rgba (0, 0, 0, 0.3);
+    -webkit-transition: 0.2s opacity;
+    transition: 0.2s opacity;
+}
+
+
+.button {
+    background-color: #0A2647;
+    font-size: 16px;
+    color: white;
+    padding: 3px;
+    border-radius: 3px;
+    border: none;
+    font-family: inherit;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 2px solid rgba (0, 0, 0, 0.3);
+    -webkit-transition: 0.2s opacity;
+    transition: 0.2s opacity;
+}
+
+button:hover,
+button:focus,
+.button:hover,
+.button:focus {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+/*Main Navigation Heading Section*/
+
+.navigation-list__item--active {
+    text-decoration: none;
+}
+
+#logo-img {
+    height: 100px;
+    width: 150px;
+}
+
+.profile-img {
+    float: left;
+    width: 300px;
+    height: 250px;
+    margin-right: 40px;
+    border-radius: 8px;
+    margin-top: -30px;
+    -webkit-box-shadow: 5px 5px 10px black;
+    box-shadow: 5px 5px 10px black;
+}
+
+/*footer*/
+.page-footer {
+    clear: both;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5px;
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+}
+
+hr {
+    width: 50%;
+    margin: 0 auto;
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+
+}
+
+.social-media__img {
+    top: -50px;
+    left: -35px;
+    display: inline-block;
+    z-index: 999;
+    cursor: pointer;
+    margin: 10px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.social-media__img:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+
+
+}
+
+
+/*Home page*/
+
+.profile-main {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: larger;
+}
+
+.main-intro {
+
+    width: 400px;
+    margin-left: 300px;
+    padding: 20px;
+    margin-top: 150px;
+}
+
+.main-intro>a {
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 4px;
+    background-color: lightgrey;
+    color: #0A2647;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.profile__text {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 100px;
+    flex: 1 1 100px;
+}
+
+.page-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    padding: 20px;
+}
+
+.page-header__item {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 200px;
+    flex: 0 1 200px;
+}
+
+.page-header__item:last-child {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    text-align: right;
+}
+
+.navigation-list {
+    list-style-type: none;
+}
+
+.navigation-list li {
+    display: inline-block;
+    margin-left: 15px
+}
+
+.navigation-list__item--active {
+    text-decoration: none;
+}
+
+.navigation-list1 {
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+/*projects page*/
+.work-header {
+    text-align: center;
+}
+
+.grid {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.grid__item {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    border-radius: 8px;
+    border: 2px solid #0A2647;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+}
+
+.grid__item:hover {
+    -webkit-box-shadow: 5px 5px 5px 5px black;
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+.grid-item__link {
+    color: #0A2647;
+    font-variant: small-caps;
+    font-size: larger;
+}
+
+.grid-item__link:hover {
+    border-top: 2px solid #0A2647;
+    opacity: 80%;
+    border-bottom: 2px solid #0A2647;
+}
+
+@supports (display:grid) {
+
+    .grid {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
+
+    }
+
+
+    .grid__item {
+        background-color: lightgrey;
+        padding: 5px;
+    }
+
+    .grid__item:last-child {
+        -ms-grid-column: 3;
+        grid-column: 3/3;
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 2;
+        grid-row: 1/3;
+    }
+}
+
+@media all and (max-width:500px) {
+    .grid {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media all and (min-width: 500px) and (max-width: 750px) {
+    .grid {
+        -ms-grid-columns: 1fr 20px 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media all and (max-width: 750px) {
+    .grid {
+        grid-gap: 10px;
+    }
+
+    .grid__item:last-child {
+        grid-column: auto / auto;
+        grid-row: auto/auto;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+}
+
+@-webkit-keyframes color-change {
+    from {
+        fill: #edc655
+    }
+
+    to {
+        fill: #f76414;
+    }
+}
+
+@keyframes color-change {
+    from {
+        fill: #edc655
+    }
+
+    to {
+        fill: #f76414;
+    }
+}
+
+.sun {
+    -webkit-animation: 4s color-change infinite alternate linear;
+    animation: 4s color-change infinite alternate linear;
+}
+
+
+@-webkit-keyframes cloud-move {
+    from {
+        -webkit-transform: translate(0, 50px);
+        transform: translate(0, 50px);
+    }
+
+    to {
+        -webkit-transform: translate(200px, 50px);
+        transform: translate(200px, 50px);
+    }
+}
+
+
+@keyframes cloud-move {
+    from {
+        -webkit-transform: translate(0, 50px);
+        transform: translate(0, 50px);
+    }
+
+    to {
+        -webkit-transform: translate(200px, 50px);
+        transform: translate(200px, 50px);
+    }
+}
+
+.cloud-front {
+    -webkit-animation: 30s cloud-move infinite alternate linear;
+    animation: 30s cloud-move infinite alternate linear;
+}
+
+@-webkit-keyframes cloud-move-reverse {
+    from {
+        -webkit-transform: translate(446px, 48px);
+        transform: translate(446px, 48px);
+    }
+
+    to {
+        -webkit-transform: translate(100px, 48px);
+        transform: translate(100px, 48px);
+    }
+}
+
+@keyframes cloud-move-reverse {
+    from {
+        -webkit-transform: translate(446px, 48px);
+        transform: translate(446px, 48px);
+    }
+
+    to {
+        -webkit-transform: translate(100px, 48px);
+        transform: translate(100px, 48px);
+    }
+}
+
+.cloud-back {
+    -webkit-animation: 34s cloud-move-reverse infinite alternate linear;
+    animation: 34s cloud-move-reverse infinite alternate linear;
+}
+
+/*contact page*/
+
+.contact-name {
+    font-size: 26px;
+}
+
+.profile-main-contact {
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    background-color: lightgrey;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+}
+
+form>label,
+input {
+    margin: 8px;
+}
+
+form>input,
+textarea {
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.form-link {
+    color: #0A2647;
+    margin: 8px;
+}
+
+main a {
+    margin: 8px;
+}
+
+#tel {
+    margin-right: 23px;
+}
+
+#email {
+    margin-right: -2px;
+
+}
+
+#name {
+    margin-right: -4px;
+}

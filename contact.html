@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact DJ Nuffer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet"
+        href="/Users/djnuffer/Library/Mobile Documents/com~apple~CloudDocs/Dev./School/portfolio-website/style.production.css">
+    <link rel="stylesheet" href="style.production.css">
+</head>
+
+<body>
+    <header class="page-header">
+        <h1 id="logo-img" class="page-header__item"> DJ NUFFER</h1>
+
+        <nav class="page-header__item">
+            <ul class="navigation-list" role="menubar">
+                <li role="presentation">
+                    <a class="navigation-list__item navigation-list__item--active" href="index.html" title="Home"
+                        aria-current="page" role="menuitem">Home</a>
+                </li>
+                <li id="about" role="presentation">
+                    <a class="navigation-list__item" href="about.html" title="About" aria-current="page">About</a>
+                </li>
+
+                <li id="projects" role="presentation">
+                    <a href="work.html">My Work</a>
+                </li>
+
+                <li id="contact" role="presentation">
+                    <a class="navigation-list__item" href="contact.html" title="contact" aria-current="page"
+                        role="menuitem">Contact Me</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="profile-main-contact">
+        <p class="contact-name"> DJ Nuffer</p>
+
+        Tel <a class="form-link" href="tel: 801-834-9377">801-834-9377 </a> <br>
+        <a class="form-link" href="mailto:david.nuffer92@gmail.com">david.nuffer92@gmail.com</a>
+        <br>
+        <a class="form-link" href="mailto:david.nuffer92@gmail.com">Contact me</a>
+        <form action="#" method="post" id="contact-form">
+            <label for="name" class="standard-label">Name</label>
+            <input required id="name" type="text" placeholder="First and Last Name">
+
+
+            <br>
+
+            <label for="email" class="standard-label">E-mail</label>
+            <input required type="email" id="email">
+
+            <br>
+
+            <label for="tel" class="standard-label">Telephone</label>
+            <input pattern="\d{3}[\-]\d{3}[\-]\d{4}" id="tel" type="tel">
+
+            <br>
+
+
+            <textarea required placeholder="Add comments here..." name="comments" id="comments" cols="30" rows="10"
+                maxlength="240"></textarea>
+
+            <br>
+
+            <button>Submit</button>
+
+        </form>
+
+
+    </main>
+    <hr>
+    <footer class="page-footer">
+        <p>Connect with me on</p>
+        <div class="social-media">
+            <a class="social-media__img" href="https://github.com/dnuffer2">
+                <img src="img/github.svg"
+                    alt="Github">
+            </a>
+            <a class="social-media__img" href="https://twitter.com/dj_nuffer">
+                <img src="img/twitter.svg"
+                    alt="Twitter">
+            </a>
+            <a class="social-media__img" href="https://www.linkedin.com/in/d-j-nuffer/">
+                <img src="img/linkedin.svg"
+                    alt="LinkedIn">
+            </a>
+        </div>
+    </footer>
+    <hr>
+    <script src="tota11y.min.js"></script>
+</body>
+
+</html>
